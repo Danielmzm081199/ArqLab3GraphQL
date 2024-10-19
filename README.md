@@ -1,2 +1,2 @@
-*Laboratorio de GraphQL*
+*Laboratorio de GraphQL*  
 Daniel - Duvan - Yohan - Alexander
