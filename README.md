@@ -1,2 +1,2 @@
-Laboratorio de GraphQL 
-Daniel - Duva - Yohan - Alexander
+*Laboratorio de GraphQL*
+Daniel - Duvan - Yohan - Alexander
