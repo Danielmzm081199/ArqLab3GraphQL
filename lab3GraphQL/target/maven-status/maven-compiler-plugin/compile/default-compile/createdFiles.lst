@@ -1,0 +1,9 @@
+com\udea\lab3GraphQL\Lab3GraphQlApplication.class
+com\udea\lab3GraphQL\controller\ReservationController.class
+com\udea\lab3GraphQL\entity\Reservation.class
+com\udea\lab3GraphQL\controller\FlightController.class
+com\udea\lab3GraphQL\repository\FlightRepository.class
+com\udea\lab3GraphQL\entity\Flight.class
+com\udea\lab3GraphQL\repository\ReservationRepository.class
+com\udea\lab3GraphQL\service\ReservationService.class
+com\udea\lab3GraphQL\service\FlightService.class
