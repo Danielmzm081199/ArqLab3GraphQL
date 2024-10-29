@@ -3,9 +3,9 @@ COPY pom.xml /app/
 COPY src /app/src/
 WORKDIR /app
 RUN mvn clean package -DskipTests
+
 # Use the official OpenJDK image to run the app
 FROM openjdk:11-jre-slim
-COPY --from=build /app/target/graphqludea-0.0.1-SNAPSHOT.jar
-/usr/local/lib/graphqludea.jar
+COPY --from=build /app/target/lab3GraphQL-0.0.1-SNAPSHOT.jar /usr/local/lib/graphqludea.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/usr/local/lib/graphqludea.jar"]
